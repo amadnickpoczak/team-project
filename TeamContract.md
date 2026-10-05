@@ -62,7 +62,7 @@ By signing below, we acknowledge that we have read, discussed, and agreed to the
 
 Team Member Signatures:
 
-Alex Poczak, Annabel Talitha, Zila Okoroze-Trust
+Alex Poczak, Annabel Talitha, Zila Okoroze-Trust, Amalia Acharya
 
 
 
