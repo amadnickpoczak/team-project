@@ -39,43 +39,43 @@ at the end of the term.
 
 ## User Stories
 
-### As a user, I want to be able to make stylistic changes like fonts or italics in order to personalize my document and emphasize certain text.
+As a user, I want to be able to make stylistic changes like fonts or italics in order to personalize my document and emphasize certain text.
 
-### As a user, I want to be able to enable spellcheck in order to ensure correctness.
+As a user, I want to be able to enable spellcheck in order to ensure correctness.
 
-### As a user, I want to be able to create new documents, save them, and open old files in order to be able to work on them over time.
+As a user, I want to be able to create new documents, save them, and open old files in order to be able to work on them over time.
 
-### As a user, I want to be able to have my account to separate my documents from others'.
+As a user, I want to be able to have my account to separate my documents from others'.
 
-### As a user, I want to be able to share my documents with others so others can edit them.
+As a user, I want to be able to share my documents with others so others can edit them.
 
 ---
 
 ## Use Cases
 
-### Change font to a font from an external API.
+Change font to a font from an external API.
 
-### Make text bold.
+Make text bold.
 
-### Make text italics.
+Make text italics.
 
-### Enable spellcheck.
+Enable spellcheck.
 
-### Check document for spelling errors using external API.
+Check document for spelling errors using external API.
 
-### Create new file.
+Create new file.
 
-### Save current file.
+Save current file.
 
-### See existing files that the user has access to (documents created by the user and ones shared with them).
+See existing files that the user has access to (documents created by the user and ones shared with them).
 
-### Open existing file.
+Open existing file.
 
-### Create a new account.
+Create a new account.
 
-### Log into an existing account.
+Log into an existing account.
 
-### Share a document with another user.
+Share a document with another user.
 
 ---
 
