@@ -15,11 +15,7 @@ at the end of the term.
 
 # Project Name
 
-Text Editor Application
-
 ## Team Information
-
-Group 8, room 3175
 
 ### Team Members
 
