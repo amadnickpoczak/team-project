@@ -31,7 +31,7 @@ at the end of the term.
 
 ## Project Description
 
-### Domain
+### Project Domain
 
 [Project description]
 
@@ -39,39 +39,55 @@ at the end of the term.
 
 ## User Stories
 
-### User Story 1
+### As a user, I want to be able to make stylistic changes like fonts or italics in order to personalize my document and emphasize certain text.
 
-### User Story 2
+### As a user, I want to be able to enable spellcheck in order to ensure correctness.
 
-### User Story 3
+### As a user, I want to be able to create new documents, save them, and open old files in order to be able to work on them over time.
 
-(Add additional user stories as needed.)
+### As a user, I want to be able to have my account to separate my documents from others'.
+
+### As a user, I want to be able to share my documents with others so others can edit them.
 
 ---
 
 ## Use Cases
 
-### Use Case 1
+### Change font to a font from an external API.
 
-### Use Case 2
+### Make text bold.
 
-### Use Case 3
+### Make text italics.
 
-(Add additional use cases as needed.)
+### Enable spellcheck.
+
+### Check document for spelling errors using external API.
+
+### Create new file.
+
+### Save current file.
+
+### See existing files that the user has access to (documents created by the user and ones shared with them).
+
+### Open existing file.
+
+### Create a new account.
+
+### Log into an existing account.
+
+### Share a document with another user.
 
 ---
 
 ## Minimal Viable Product (MVP)
 
-| Team Member | MVP Use Case |
+| Amalia | Spellcheck |
 
-|-------------|--------------|
+| Ampere | Creating, saving, and opening files |
 
-| Name | Use Case |
+| Zila | Sharing documents |
 
-| Name | Use Case |
-
-| Name | Use Case |
+| Annabel | Stylistic edits |
 
 ---
 
