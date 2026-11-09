@@ -93,10 +93,13 @@ Share a document with another user.
 
 ## Entities
 
-### Entity 1
-### Entity 2
+### Document
 
-(Add additional entities as needed.)
+Attributes: who created it, who can access it, the text contents of the document
+
+### User
+
+Attributes: username, documents created, documents shared with them
 
 ---
 
