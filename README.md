@@ -81,7 +81,7 @@ Share a document with another user.
 
 ## Minimal Viable Product (MVP)
 
-| Amalia | Spellcheck |
+| Amalia | Spellcheck via API |
 
 | Ampere | Creating, saving, and opening files |
 
