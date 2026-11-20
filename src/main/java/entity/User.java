@@ -2,7 +2,6 @@ package entity;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.entity.Document;
 
 /**
  * An entity representing a user. Users have a username, list of documents they
