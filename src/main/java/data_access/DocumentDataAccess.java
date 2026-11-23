@@ -3,6 +3,7 @@ package data_access;
 import entity.Document;
 import entity.User;
 import use_case.create_document.CreationDataAccessInterface;
+import use_case.save_document.SavingDataAccessInterface;
 import use_case.open_document.OpeningDataAccessInterface;
 
 import java.io.*;
@@ -11,7 +12,8 @@ import java.util.*;
 /**
  * DAO for document data implemented using a File to persist the data.
  */
-public class DocumentDataAccess implements CreationDataAccessInterface, OpeningDataAccessInterface {
+public class DocumentDataAccess implements CreationDataAccessInterface, SavingDataAccessInterface,
+        OpeningDataAccessInterface {
 
     private static final String HEADER = "name,createdBy,accessedBy,contents";
 
