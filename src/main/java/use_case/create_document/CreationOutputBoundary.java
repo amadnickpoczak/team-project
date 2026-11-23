@@ -13,4 +13,9 @@ public interface CreationOutputBoundary {
      * @param errorMessage the explanation of the failure
      */
     void prepareFailView(String errorMessage);
+
+    /**
+     * Switches to the New Document View.
+     */
+    void switchToNewDocumentView();
 }

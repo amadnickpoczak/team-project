@@ -42,7 +42,7 @@ public class DocumentDataAccess implements CreationDataAccessInterface, SavingDa
     public void load() {
         if (userDataAccess == null) {
             throw new IllegalStateException(
-                    "UserDataAccess must be set before loading documents."
+               "UserDataAccess must be set before loading documents."
             );
         }
 

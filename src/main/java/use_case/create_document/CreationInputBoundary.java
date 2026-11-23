@@ -6,9 +6,11 @@ package use_case.create_document;
 public interface CreationInputBoundary {
 
     /**
-     * Executes the creating a file use case.
+     * Executes the creating a document use case.
      * @param creationInputData the input data
      */
     void execute(CreationInputData creationInputData);
+
+    void switchToNewDocumentView();
 
 }
