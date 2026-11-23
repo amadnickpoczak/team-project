@@ -1,7 +1,7 @@
 package use_case.create_document;
 
 /**
- * Input Boundary for actions which are related to signing up.
+ * Input Boundary for actions which are related to creating a document.
  */
 public interface CreationInputBoundary {
 
