@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * The state for the Spellcheck view model. Represents the data held by the spellcheck view.
+ * The state for the spellcheck use case. Represents the data held by the spellcheck view.
  */
 public class SpellcheckState {
     private List<String> suggestions = new ArrayList<>();

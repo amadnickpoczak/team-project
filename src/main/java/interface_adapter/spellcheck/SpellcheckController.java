@@ -11,6 +11,7 @@ public class SpellcheckController {
 
     /**
      * Constructs a SpellcheckController object.
+     * @param spellcheckInteractor the spellcheck input boundary
      */
     public SpellcheckController(SpellcheckInputBoundary spellcheckInteractor) {
         this.spellcheckInteractor = spellcheckInteractor;
@@ -18,7 +19,6 @@ public class SpellcheckController {
 
     /**
      * Executes the spellcheck action.
-     *
      * @param text the text to be checked
      */
     public void execute(String text) {
