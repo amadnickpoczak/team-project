@@ -13,7 +13,6 @@ public class SpellcheckViewModel {
 
     /**
      * Returns the current spellcheck state.
-     *
      * @return the state
      */
     public SpellcheckState getState() {
@@ -22,7 +21,6 @@ public class SpellcheckViewModel {
 
     /**
      * Updates the spellcheck state.
-     *
      * @param state the new state
      */
     public void setState(SpellcheckState state) {
@@ -31,7 +29,6 @@ public class SpellcheckViewModel {
 
     /**
      * Adds a new spellcheck view model listener.
-     *
      * @param listener the listener object to be added
      */
     public void addListener(SpellcheckViewModelListener listener) {
