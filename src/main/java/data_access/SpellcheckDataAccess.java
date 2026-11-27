@@ -42,7 +42,7 @@ public class SpellcheckDataAccess implements SpellcheckDataAccessInterface {
     }
 
     @Override
-    public List<String> getSuggestions(String text) throws Exception {
+    public List<String> getSuggestions(String text) {
         List<String> suggestions = new ArrayList<>();
         if (text.isBlank()) {
             return suggestions;
