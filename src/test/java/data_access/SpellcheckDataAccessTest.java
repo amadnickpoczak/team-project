@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 class SpellcheckDataAccessTest {
 
     @Test
-    void testEmptyAndBlankTextReturnsEmptyList() throws Exception {
+    void testEmptyAndBlankTextReturnsEmptyList() {
         SpellcheckDataAccess dao = new SpellcheckDataAccess("unused-key");
         assertTrue(dao.getSuggestions("").isEmpty());
         assertTrue(dao.getSuggestions("   \n\t  ").isEmpty());
@@ -34,7 +34,7 @@ class SpellcheckDataAccessTest {
     }
 
     @Test
-    void testValidSpellingReturnsEmptyList() throws Exception {
+    void testValidSpellingReturnsEmptyList() {
         String apiKey = System.getenv("API_NINJAS_KEY");
         assumeTrue(apiKey != null && !apiKey.isBlank(),
         "Skipping live API test, since API_NINJAS_KEY not set");
@@ -45,7 +45,7 @@ class SpellcheckDataAccessTest {
     }
 
     @Test
-    void testMisspelledWordAndHistoryAccess() throws Exception {
+    void testMisspelledWordAndHistoryAccess() {
         String apiKey = System.getenv("API_NINJAS_KEY");
         assumeTrue(apiKey != null && !apiKey.isBlank(),
         "Skipping live API test, since API_NINJAS_KEY not set");
@@ -63,7 +63,7 @@ class SpellcheckDataAccessTest {
     }
 
     @Test
-    void testLongTextSplitsAcrossMultipleSegments() throws Exception {
+    void testLongTextSplitsAcrossMultipleSegments() {
         String apiKey = System.getenv("API_NINJAS_KEY");
         assumeTrue(apiKey != null && !apiKey.isBlank(),
         "Skipping live API test: API_NINJAS_KEY not set");
